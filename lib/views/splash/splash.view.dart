@@ -22,6 +22,7 @@ class _SplashViewState extends State<SplashView> {
     final splashViewModel = Provider.of<SplashViewModel>(context);
 
     return Scaffold(
+      backgroundColor: kPrimaryColor,
       body: SafeArea(
         child: SizedBox(
           width: double.infinity,
@@ -77,6 +78,7 @@ class _SplashViewState extends State<SplashView> {
                         child: const Text('Continuar'),
                       ),
                       const SizedBox(height: 2,),
+                      const Spacer(flex: 3),
                     ],
                   ),
                 ),

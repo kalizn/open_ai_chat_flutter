@@ -3,21 +3,19 @@ import 'package:flutter/material.dart';
 const kPrimaryGradientColor = LinearGradient(
   begin: Alignment.topLeft,
   end: Alignment.bottomRight,
-  colors: [Color(0xFFFFA53E), Color(0xFFFF7643)],
+  colors: [
+    Color(0xFF7555ae),
+    Color(0xFFd6cde7)]
+  ,
 );
-const kPrimaryColor = Colors.blueAccent;
-const kSecondaryColor = Colors.blueGrey;
-const kTextColor = Colors.black;
+const kPrimaryColor = Color(0xFF7555ae);
+const kSecondaryColor = Color(0xFFd6cde7);
+const kTertiaryColor = Color(0xFFa28dc8);
+const kQuaternaryColor = Color(0xFFb4a3d4);
+const kQuinaryColor = Color(0xFF947cc4);
+const kTextColor = Colors.white;
 const kTextDescription = Color(0xFF8A8A8A);
-const kIconsShare = Color(0xFF515357);
 const kAnimationDuration = Duration(milliseconds: 200);
-
-const headingStyle = TextStyle(
-  fontSize: 24,
-  fontWeight: FontWeight.bold,
-  color: Colors.black,
-  height: 1.5,
-);
 
 const defaultDuration = Duration(milliseconds: 250);
 

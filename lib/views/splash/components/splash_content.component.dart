@@ -24,20 +24,20 @@ class _SplashContentState extends State<SplashContent> {
           "K4LIZN",
           style: TextStyle(
             fontSize: 32,
-            color: kIconsShare,
+            color: kTextColor,
             fontWeight: FontWeight.bold,
           ),
         ),
         Text(
           widget.text!,
-          style: const TextStyle(color: kIconsShare),
+          style: const TextStyle(color: kTextColor),
           textAlign: TextAlign.center,
         ),
         const Spacer(flex: 2),
         Image.asset(
           widget.image!,
-          height: 235,
-          width: 205,
+          height: 300,
+          width: 300,
         ),
       ],
     );

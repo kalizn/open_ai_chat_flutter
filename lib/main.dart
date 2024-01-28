@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 
 import 'utils/routes.dart';
 import 'utils/theme.dart';
-import 'view_models/open_ai.view.model.dart';
 import 'view_models/splash.view.model.dart';
 import 'views/splash/splash.view.dart';
 
@@ -11,7 +10,6 @@ void main() {
   runApp(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => OpenAiViewModel()),
         ChangeNotifierProvider(create: (_) => SplashViewModel())
       ],
       child:  const MyApp()),

@@ -5,7 +5,7 @@ class SplashViewModel extends ChangeNotifier{
   List<Map<String, String>> splashData = [
     {
       "text": "Faça bom uso do Chat AI",
-      "image": "assets/images/logo.png"
+      "image": "assets/images/logo-nobg.png"
     },
   ];
 }
